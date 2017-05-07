@@ -1,0 +1,36 @@
+{
+  "rules": {
+    "curly": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "label-position": true,
+    "no-var-keyword": true,
+    "no-consecutive-blank-lines": [
+      true
+    ],
+    "eofline": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-variable": true,
+    "no-trailing-whitespace": true,
+    "no-unused-expression": true,
+    "no-invalid-template-strings": true,
+    "object-literal-key-quotes": [
+      true,
+      "consistent-as-needed"
+    ],
+    "prefer-method-signature": true,
+    "prefer-template": true,
+    "semicolon": [
+      "never"
+    ],
+    "quotemark": [
+      "double"
+    ],
+    "triple-equals": true,
+    "class-name": true,
+    "no-require-imports": false
+  }
+}

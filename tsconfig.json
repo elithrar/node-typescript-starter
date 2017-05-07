@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "build",
+    "declaration": true,
+    "rootDir": "src",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true
+  },
+  "include": [
+    "src/*",
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    ".vscode"
+  ]
+}

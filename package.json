@@ -1,0 +1,28 @@
+{
+    "name": "node-typescript-starter",
+    "version": "1.0.0",
+    "description": "A simple starting point for writing TypeScript on Node.js",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "repository": "",
+    "author": "",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "postinstall": "yarn build",
+        "build": "tsc",
+        "test": "mocha -r ts-node/register src/test/*.ts"
+    },
+    "engines": {
+        "node": "7.x"
+    },
+    "dependencies": {
+        "typescript": "^2.3.2"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.40",
+        "@types/node": "^7.0.18",
+        "mocha": "^3.3.0",
+        "ts-node": "^3.0.4",
+        "tslint": "^5.2.0"
+    }
+}
